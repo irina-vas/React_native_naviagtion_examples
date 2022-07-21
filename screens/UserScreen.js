@@ -8,7 +8,8 @@ export const UserScreen = ({ navigation }) => {
   return (
     <View style={styles.container}>
       <Text style={styles.text}>userScreen</Text>
-      <Button title="Open drawer" onPress={openDrawerHandler} />
+      {/* for DRAWER */}
+      {/* <Button title="Open drawer" onPress={openDrawerHandler} /> */}
     </View>
   )
 }
